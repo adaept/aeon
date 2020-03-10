@@ -7,6 +7,8 @@ import { Todo } from '../../interfaces/todo';
 })
 export class AppHome {
 
+  @State() todos: Todo[] = [];
+
   render() {
     return [
       <ion-header>
