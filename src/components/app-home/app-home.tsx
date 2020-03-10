@@ -1,4 +1,5 @@
-import { Component, h } from '@stencil/core';
+import { Component, h, State } from '@stencil/core';
+import { Todo } from '../../interfaces/todo';
 
 @Component({
   tag: 'app-home',
